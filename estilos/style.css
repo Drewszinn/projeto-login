@@ -40,18 +40,24 @@ section#login {
     height: 75vh;
     border-radius: 20px;
     overflow: hidden;
+    transition: width .5s, height .5s;
 }
 
 section#login > div#imagem {
     background-image: url(../imagens/pexels-rajesh-tp-1633578.jpg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+    height: 210px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    text-align: center;
+}
 
+section#login > div#formulario p {
+    font-size: 1.02em;
 }
