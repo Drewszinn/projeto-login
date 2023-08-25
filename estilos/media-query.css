@@ -22,49 +22,14 @@ Grandes: acima de 1200px;
 
     section#login > div#imagem {
         float: left;
-        width: 40vw;
+        width: 40%;
         height: 100vh;
     }
 
-    input {
-        padding: 2vh 8vw;
-        margin-top: 50px;
-        text-align: center;
-        font-size: 20px;
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
     }
-
-    .gg-user {
-        position: absolute;
-        margin-top: 75px;
-        margin-left: 41vw;
-        width: 10px;
-        height: 10px;
-
-    }
-    
-    .gg-key {
-        position: absolute;
-        margin-top: 85px;
-        margin-left: 41vw;
-        width: 10px;
-        height: 10px;
-    }
-
-    #cadastro-recuperar {
-        position: relative;
-        margin-left: auto;
-        top: 10px;
-        font-size: .6em;
-
-    }
-
-    #botao {
-        position: absolute;
-        margin-top: 50px;
-        margin-left: auto;
-        padding: 20px;
-    }
-    
 
 }
 
@@ -86,42 +51,16 @@ Grandes: acima de 1200px;
         height: 100vh;
     }
 
-    input {
-        padding: 2vh 8vw;
-        margin-top: 50px;
-        text-align: center;
-        font-size: 20px;
+    section#login > div#formulario {
+        float:left; 
+        width: 50%;
     }
 
-    .gg-user {
-        position: absolute;
-        margin-top: 68px;
-        margin-left:7vw;
-        width: 10px;
-        height: 10px;
-
-    }
-    
-    .gg-key {
-        position: absolute;
-        margin-top: 75px;
-        margin-left: 7vw;
-        width: 10px;
-        height: 10px;
+    div#formulario h1  {
+        font-size: 2em;
     }
 
-    #cadastro-recuperar {
-        position: relative;
-        margin-left: auto;
-        top: 10px;
-        font-size: .6em;
-
-    }
-
-    #botao {
-        position: absolute;
-        margin-top: 50px;
-        margin-left: 2vw;
-        padding: 20px;
+    div#formulario p {
+        font-size: 1.2em;
     }
 }

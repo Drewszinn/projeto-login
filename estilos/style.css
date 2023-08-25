@@ -46,7 +46,7 @@ section#login {
 
 section#login > div#imagem {
     background-image: url(../imagens/pexels-rajesh-tp-1633578.jpg);
-    height: 210px;
+    height: 30vh;
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center center;
@@ -56,41 +56,22 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
     font-size: 1.2em;
+
+}
+
+div#formulario h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 section#login > div#formulario p {
-    font-size: 1.02em;
+    font-size: 0.8em;
 }
 
-input {
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid;
-    margin-top: 10px;
+span.material-symbols-outlined {
+    
+    font-size: 25px;
+    
 }
 
-.gg-user {
-    position: absolute;
-    margin-top: 15px;
-}
 
-.gg-key {
-    position: absolute;
-    margin-top: 17px;
-    margin-left: 1px;
-}
-
-#cadastro-recuperar {
-    position: relative;
-    margin-left: 25%;
-    top: -25px;
-    font-size: .5em;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-
-#botao {
-    margin-top: 25px;
-    padding: 10px;
-}
