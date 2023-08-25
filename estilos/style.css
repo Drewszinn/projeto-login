@@ -62,3 +62,35 @@ section#login > div#formulario {
 section#login > div#formulario p {
     font-size: 1.02em;
 }
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.gg-user {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.gg-key {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 1px;
+}
+
+#cadastro-recuperar {
+    position: relative;
+    margin-left: 25%;
+    top: -25px;
+    font-size: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+#botao {
+    margin-top: 25px;
+    padding: 10px;
+}
