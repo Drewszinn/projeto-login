@@ -19,7 +19,7 @@
 }
 
 html, body {
-    background-image: linear-gradient(to bottom, #BF0426, #D98E04);
+    background-color: #c40606da;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -41,6 +41,7 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {

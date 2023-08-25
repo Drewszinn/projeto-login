@@ -9,9 +9,14 @@ Grandes: acima de 1200px;
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #BF0426, #D98E04);
+    }
+
     section#login {
-        width: 90vw;
-        height: 90vh;
+        width: 95vw;
+        height: 65vh;
         font-size: 1.8em;
 
     }
@@ -25,6 +30,11 @@ Grandes: acima de 1200px;
 }
 
 @media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #BF0426, #D98E04);
+    }
+
     section#login {
         width: 950px;
         font-size: 2em;
